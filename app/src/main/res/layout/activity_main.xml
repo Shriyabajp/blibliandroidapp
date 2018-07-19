@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+   <!--<android.support.v7.widget.RecyclerView-->
+       <!--android:layout_height="wrap_content" android:layout_width="match_parent"-->
+       <!--android:id="@+id/recyclerView"-->
+       <!--android:layout_weight="1"-->
+
+       <!--/>-->
+    <!--<LinearLayout android:layout_height="wrap_content"-->
+        <!--android:weightSum="4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_gravity="bottom"-->
+
+        <!--android:orientation="horizontal">-->
+    <!--<EditText-->
+        <!--android:id="@+id/edit_text_username"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+        <!--android:id="@+id/button_username"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="3"-->
+        <!--android:layout_width="match_parent" />-->
+
+    <!--</LinearLayout>-->
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_name"
+        android:gravity="center_vertical"
+        android:onClick="buttonOnClick" />
+</RelativeLayout>
